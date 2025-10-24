@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Colores corporativos de Scobel */
+:root {
+  --scobel-yellow: #FDB913;
+  --scobel-blue: #003DA5;
+  --scobel-light-yellow: #FFE066;
+  --scobel-dark-blue: #002B73;
+}
