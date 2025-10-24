@@ -55,7 +55,7 @@ const Header = () => {
           {/* Logo */}
           <Link to={ROUTES.HOME} className="flex items-center space-x-2 group">
             <div className="relative">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#FDB913] to-[#003DA5] rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+              <div className="w-12 h-12 bg-linear-to-br from-[#FDB913] to-[#003DA5] rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                 <span className="text-white font-bold text-xl">GS</span>
               </div>
             </div>
@@ -295,9 +295,9 @@ const Header = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Main Info */}
-              <div className="lg:col-span-1 bg-gradient-to-br from-[#003DA5]/5 to-[#FDB913]/5 p-6 rounded-xl">
+              <div className="lg:col-span-1 bg-linear-to-br from-[#003DA5]/5 to-[#FDB913]/5 p-6 rounded-xl">
                 <div className="flex items-start space-x-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#003DA5] to-[#002B73] rounded-xl flex items-center justify-center shrink-0 shadow-lg">
+                  <div className="w-16 h-16 bg-linear-to-br from-[#003DA5] to-[#002B73] rounded-xl flex items-center justify-center shrink-0 shadow-lg">
                     <span className="text-white font-bold text-xl">SC</span>
                   </div>
                   <div className="flex-1">
@@ -360,9 +360,9 @@ const Header = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Main Info */}
-              <div className="lg:col-span-1 bg-gradient-to-br from-[#FDB913]/10 to-[#FFE066]/5 p-6 rounded-xl">
+              <div className="lg:col-span-1 bg-linear-to-br from-[#FDB913]/10 to-[#FFE066]/5 p-6 rounded-xl">
                 <div className="flex items-start space-x-4">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#FDB913] to-[#FFE066] rounded-xl flex items-center justify-center shrink-0 shadow-lg">
+                  <div className="w-16 h-16 bg-linear-to-br from-[#FDB913] to-[#FFE066] rounded-xl flex items-center justify-center shrink-0 shadow-lg">
                     <span className="text-[#003DA5] font-bold text-xl">SB</span>
                   </div>
                   <div className="flex-1">
