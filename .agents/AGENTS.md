@@ -25,6 +25,9 @@ Concise rules for building accessible, fast, delightful UIs. Use MUST/SHOULD/NEV
 - MUST: Validate forms with Zod and `react-hook-form`; repeat validation in Express.
 - MUST: Follow all keyboard, focus, responsive, motion, contrast, and content rules below.
 - NEVER: Import MySQL clients, repositories, Better Auth secrets, or privileged SDKs into the browser.
+- MUST: Use `frontend-page-composition` so each page is a thin composition of focused sections.
+- MUST: Keep page-specific sections under `components/<page>/` and shared shells under `components/layout/`.
+- SHOULD: Keep generic primitives under `components/ui/` and promote page components only after real reuse.
 
 ## Backend work
 
